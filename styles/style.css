@@ -14,7 +14,7 @@ a {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 96px;
+  padding: 92px 50px 92px;
 }
 
 .header__links-list {
@@ -157,7 +157,7 @@ a {
 .lots__heading {
   font-size: 40px;
   margin-bottom: 30px;
-  margin-left: 30px;
+  margin-left: 40px;
   text-transform: uppercase;
 }
 
@@ -182,7 +182,7 @@ a {
 .card {
   position: relative;
   height: 100%;
-  padding: 35px;
+  padding: 48px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -215,12 +215,13 @@ a {
   position: relative;
   z-index: 2;
   font-size: 20px;
+  line-height: 1.2;
 }
 
 .lots__look-more-link {
   display: block;
   margin-top: 30px;
-  margin-left: 30px;
+  margin-left: 40px;
   font-size: 20px;
   text-decoration: underline;
 }
@@ -229,7 +230,7 @@ a {
   display: grid;
   grid-template-columns: 334px 2fr;
   gap: 25px;
-  padding: 120px 24px;
+  padding: 155px 24px 180px;
   align-items: start;
 }
 
@@ -271,7 +272,6 @@ a {
 
 .footer {
   display: grid;
-  margin-top: 40px;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 82px;
